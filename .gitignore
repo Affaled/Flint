@@ -1,0 +1,81 @@
+# ====================================
+# GERAL / SISTEMA OPERACIONAL
+# ====================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================================
+# IDEs E EDITORES (VS Code, Visual Studio, JetBrains)
+# ====================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/
+
+# Visual Studio (Server)
+.vs/
+
+# JetBrains (WebStorm, Rider)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / Outros
+.project
+.classpath
+.settings/
+*.sublime-workspace
+
+# ====================================
+# CLIENT (Angular / Node.js)
+# ====================================
+# Dependências
+node_modules/
+
+# Angular Build & Cache
+.angular/cache
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Logs
+npm-debug.log
+yarn-error.log
+testem.log
+/libpeerconnection.log
+
+# Testes e Cobertura
+coverage/
+__screenshots__/
+
+# Diversos
+.sass-cache/
+connect.lock
+typings/
+
+# ====================================
+# SERVER (C# / .NET Core)
+# ====================================
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configurações Sensíveis (IMPORTANTE: Nunca suba senhas)
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs do .NET
+*.log
