@@ -20,4 +20,14 @@ const baseTheme = EditorView.theme({
   },
 });
 
-export const flintTheme = [baseTheme];
+const markdownHighlighting = HighlightStyle.define([
+  {
+    tag: tags.heading1,
+    fontSize: '2.2em',
+    fontWeight: 'bold',
+    color: '#2e0f46',
+    fontFamily: 'inherit',
+  },
+]);
+
+export const flintTheme = [baseTheme, syntaxHighlighting(markdownHighlighting)];

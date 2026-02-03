@@ -33,7 +33,7 @@ export class Editor implements AfterViewInit, OnDestroy {
   private initEditor() {
     this.ngZone.runOutsideAngular(() => {
       const state = EditorState.create({
-        doc: '# Bem-vindo ao Flint\n\nComece a escrever...w',
+        doc: '# Bem-vindo ao Flint\n\nComece a escrever...',
         extensions: [
           keymap.of([...defaultKeymap, indentWithTab, ...historyKeymap]),
           history(),
