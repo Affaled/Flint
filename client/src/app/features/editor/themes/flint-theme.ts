@@ -1,7 +1,6 @@
 import { HighlightStyle, syntaxHighlighting } from '@codemirror/language';
 import { tags } from '@lezer/highlight';
 import { EditorView } from '@codemirror/view';
-import { Editor } from '../editor';
 
 const baseTheme = EditorView.theme({
   '&': {
