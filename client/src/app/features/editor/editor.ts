@@ -11,6 +11,7 @@ import { EditorState } from '@codemirror/state';
 import { EditorView, keymap } from '@codemirror/view';
 import { defaultKeymap, history, historyKeymap, indentWithTab } from '@codemirror/commands';
 import { markdown } from '@codemirror/lang-markdown';
+import { flintTheme } from './themes/flint-theme';
 
 @Component({
   selector: 'app-editor',
@@ -38,6 +39,7 @@ export class Editor implements AfterViewInit, OnDestroy {
           history(),
           markdown(),
           EditorView.lineWrapping,
+          flintTheme,
         ],
       });
 
